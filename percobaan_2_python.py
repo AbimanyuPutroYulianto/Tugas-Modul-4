@@ -42,6 +42,7 @@ if (0 < pil < 4):
        sys.exit(0)
 elif(pil <= 0):
     error()
+    sys.exit(0)
 else :
     error()
     sys.exit(0)
